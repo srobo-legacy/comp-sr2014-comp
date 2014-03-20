@@ -3,7 +3,7 @@ match_period_length_seconds: 300
 delays:
   # Delays will pile up here in this form:
     # - delay: 15  #<- number of seconds delay
-    # - time: 2014-04-26 13:00:00 #<- time after which the delay will apply
+    #   time: 2014-04-26 13:00:00 #<- time after which the delay will apply
 match_periods:
   league:
     - start_time: 2014-04-26 13:00:00
