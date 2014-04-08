@@ -1,13 +1,7 @@
 # All the SR2014 teams
 teams:
-  BAY:
-    name: "Bay House School & Sixth Form"
-
   BDF:
     name: "Bedford School"
-
-  BGS:
-    name: "Bristol Grammar School"
 
   BPV:
     name: "Barton Peveril College"
@@ -131,9 +125,6 @@ teams:
 
   RWD:
     name: "Ringwood School"
-
-  SCC:
-    name: "Southampton City College"
 
   SEN:
     name: "Southend High School for Boys"
