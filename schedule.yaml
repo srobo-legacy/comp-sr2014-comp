@@ -32,10 +32,310 @@ knockout:
   final_delay: 300              # +5 minutes
 
 matches:
-  # Match schedule to appear here in this format:
-  #  0:
-  #      arena_0: [ABC, SRZ, QEH, PSC]
-  #      arena_1: [DFE, BDJ, LPQ, MRH]
-  #  1:
-  #      arena_0: [PNY, BCC, PSA, PSC]
-  #      arena_1: [DFE, BDJ, LPQ, MRH]
+  0:
+    A: [TTN, LFG, KDE, GRD]
+    B: [null, BWS, HSO, KES]
+  1:
+    A: [GYG, CGS, PSC, SEN]
+    B: [CLF, CRB2, BDF, BPV]
+  2:
+    A: [PAG, MAI2, STA, RED]
+    B: [LSS, TWG, CPR, GRS]
+  3:
+    A: [TBG, RWD, CRB, ICE]
+    B: [CCR, CLY, QEH, RUN]
+  4:
+    A: [PAS, RGS, BRK, MAI]
+    B: [null, BRN, HYP, EMM]
+  5:
+    A: [HRS, KHS, HZW, QMC]
+    B: [JMS, SWI, MFG, HAM]
+  6:
+    A: [CLF, CRB2, PSC, KDE]
+    B: [SEN, CGS, LFG, BWS]
+  7:
+    A: [null, TTN, LSS, STA]
+    B: [PAG, HSO, CPR, GRD]
+  8:
+    A: [TBG, RWD, MAI2, RUN]
+    B: [CCR, RED, ICE, KES]
+  9:
+    A: [null, GYG, HYP, BRK]
+    B: [BPV, CRB, RGS, EMM]
+  10:
+    A: [CLY, JMS, QMC, GRS]
+    B: [HRS, PAS, BDF, SWI]
+  11:
+    A: [BRN, TWG, MFG, HAM]
+    B: [KHS, MAI, HZW, QEH]
+  12:
+    A: [PAG, HSO, CLF, SEN]
+    B: [TTN, LFG, PSC, CGS]
+  13:
+    A: [CCR, RWD, LSS, KDE]
+    B: [CRB2, BWS, MAI2, RED]
+  14:
+    A: [KES, HYP, RUN, GRD]
+    B: [TBG, null, BPV, RGS]
+  15:
+    A: [JMS, HRS, BDF, QMC]
+    B: [null, CRB, PAS, GRS]
+  16:
+    A: [KHS, TWG, MFG, STA]
+    B: [CLY, GYG, HAM, QEH]
+  17:
+    A: [MAI, SWI, ICE, EMM]
+    B: [BRN, HZW, CPR, BRK]
+  18:
+    A: [CCR, CLF, TTN, HSO]
+    B: [RWD, CRB2, LFG, LSS]
+  19:
+    A: [TBG, SEN, BPV, PSC]
+    B: [KES, CGS, GRD, RED]
+  20:
+    A: [RGS, BDF, HYP, QMC]
+    B: [null, null, CRB, GRS]
+  21:
+    A: [JMS, GYG, MAI2, RUN]
+    B: [HRS, PAG, TWG, HAM]
+  22:
+    A: [PAS, MFG, QEH, EMM]
+    B: [HZW, SWI, KDE, STA]
+  23:
+    A: [CLY, BRN, BWS, ICE]
+    B: [KHS, MAI, BRK, CPR]
+  24:
+    A: [LSS, HSO, BPV, KES]
+    B: [CCR, TBG, CGS, TTN]
+  25:
+    A: [SEN, CRB, BDF, HYP]
+    B: [CRB2, RGS, QMC, GRS]
+  26:
+    A: [HRS, null, LFG, MAI2]
+    B: [null, TWG, CLF, RED]
+  27:
+    A: [RWD, HAM, STA, EMM]
+    B: [SWI, RUN, QEH, GRD]
+  28:
+    A: [GYG, BRN, HZW, MAI]
+    B: [CLY, PSC, CPR, MFG]
+  29:
+    A: [JMS, PAG, BWS, BRK]
+    B: [KHS, PAS, KDE, ICE]
+  30:
+    A: [TBG, SEN, HYP, QMC]
+    B: [TTN, BDF, LSS, CRB2]
+  31:
+    A: [null, BPV, TWG, MAI2]
+    B: [HRS, KES, CRB, LFG]
+  32:
+    A: [CGS, HSO, STA, QEH]
+    B: [CLF, GRS, RWD, GRD]
+  33:
+    A: [PSC, HZW, RGS, EMM]
+    B: [CLY, SWI, CPR, RED]
+  34:
+    A: [PAG, BRN, KDE, RUN]
+    B: [JMS, null, MAI, GYG]
+  35:
+    A: [CCR, BWS, ICE, HAM]
+    B: [KHS, PAS, BRK, MFG]
+  36:
+    A: [TBG, LSS, CRB, MAI2]
+    B: [HRS, BPV, HYP, TTN]
+  37:
+    A: [CLF, RWD, GRS, KES]
+    B: [null, LFG, TWG, HSO]
+  38:
+    A: [EMM, BDF, QEH, RED]
+    B: [CLY, CGS, RGS, STA]
+  39:
+    A: [GYG, QMC, PAG, KDE]
+    B: [SEN, CRB2, CPR, MAI]
+  40:
+    A: [null, SWI, BRK, ICE]
+    B: [GRD, HZW, MFG, BWS]
+  41:
+    A: [JMS, KHS, BRN, RUN]
+    B: [CCR, PSC, PAS, HAM]
+  42:
+    A: [TBG, null, LSS, KES]
+    B: [HSO, HYP, MAI2, GRS]
+  43:
+    A: [TWG, BDF, RGS, RED]
+    B: [CLY, BPV, LFG, EMM]
+  44:
+    A: [RWD, CGS, CRB, KDE]
+    B: [GYG, TTN, CPR, QEH]
+  45:
+    A: [HRS, CLF, BRK, GRD]
+    B: [SEN, HZW, MFG, ICE]
+  46:
+    A: [PAS, PSC, QMC, RUN]
+    B: [JMS, KHS, CRB2, HAM]
+  47:
+    A: [CCR, null, BWS, PAG]
+    B: [MAI, BRN, SWI, STA]
+  48:
+    A: [null, CLY, HSO, RGS]
+    B: [EMM, BDF, MAI2, KES]
+  49:
+    A: [TBG, LFG, TWG, CPR]
+    B: [RWD, TTN, HYP, RED]
+  50:
+    A: [HRS, CGS, ICE, GRS]
+    B: [CLF, LSS, QEH, SEN]
+  51:
+    A: [JMS, CRB2, PAS, BPV]
+    B: [HZW, KDE, HAM, BRK]
+  52:
+    A: [null, QMC, MFG, MAI]
+    B: [BRN, PSC, STA, GRD]
+  53:
+    A: [CCR, KHS, SWI, PAG]
+    B: [GYG, CRB, RUN, BWS]
+  54:
+    A: [TTN, CPR, MAI2, EMM]
+    B: [TBG, CLY, HYP, KES]
+  55:
+    A: [HRS, RWD, HSO, ICE]
+    B: [CLF, CGS, TWG, RGS]
+  56:
+    A: [null, SEN, BPV, BRK]
+    B: [JMS, LSS, LFG, KDE]
+  57:
+    A: [null, PAS, QEH, GRD]
+    B: [HZW, QMC, HAM, RED]
+  58:
+    A: [CCR, GYG, CRB2, MFG]
+    B: [MAI, CRB, STA, RUN]
+  59:
+    A: [PAG, BRN, PSC, SWI]
+    B: [KHS, BDF, BWS, GRS]
+  60:
+    A: [CLY, RWD, TTN, MAI2]
+    B: [HRS, CLF, CGS, HYP]
+  61:
+    A: [null, RGS, CPR, ICE]
+    B: [BPV, TWG, KDE, KES]
+  62:
+    A: [JMS, SEN, GRD, EMM]
+    B: [RED, HZW, PAS, LFG]
+  63:
+    A: [null, CRB2, BRK, STA]
+    B: [LSS, CRB, QMC, HAM]
+  64:
+    A: [CCR, KHS, BRN, QEH]
+    B: [PAG, MAI, RUN, GRS]
+  65:
+    A: [GYG, HSO, PSC, BWS]
+    B: [TBG, BDF, SWI, MFG]
+  66:
+    A: [RWD, CGS, BPV, CPR]
+    B: [KES, RGS, MAI2, KDE]
+  67:
+    A: [null, JMS, HZW, PAS]
+    B: [HRS, SEN, CLY, RED]
+  68:
+    A: [LSS, GRD, BRK, EMM]
+    B: [null, LFG, HYP, ICE]
+  69:
+    A: [CRB2, CRB, BRN, QEH]
+    B: [PAG, TWG, QMC, STA]
+  70:
+    A: [CCR, TBG, GRS, MAI]
+    B: [BDF, PSC, HSO, RUN]
+  71:
+    A: [KHS, BWS, SWI, HAM]
+    B: [GYG, TTN, MFG, CLF]
+  72:
+    A: [HRS, RWD, RGS, PAS]
+    B: [CLY, SEN, KDE, MAI2]
+  73:
+    A: [BPV, RED, ICE, GRD]
+    B: [JMS, LSS, HZW, HYP]
+  74:
+    A: [null, PAG, QEH, KES]
+    B: [CGS, BRN, BRK, QMC]
+  75:
+    A: [CRB2, TWG, RUN, EMM]
+    B: [CCR, BDF, STA, LFG]
+  76:
+    A: [TBG, null, HAM, CLF]
+    B: [TTN, HSO, SWI, GRS]
+  77:
+    A: [MAI, BWS, PSC, MFG]
+    B: [KHS, GYG, CRB, CPR]
+  78:
+    A: [JMS, SEN, KDE, RED]
+    B: [HRS, LSS, RGS, GRD]
+  79:
+    A: [null, RWD, QMC, QEH]
+    B: [PAG, CGS, PAS, MAI2]
+  80:
+    A: [CCR, CRB2, HYP, EMM]
+    B: [BPV, RUN, ICE, STA]
+  81:
+    A: [TTN, BRK, HAM, GRS]
+    B: [TBG, HZW, SWI, HSO]
+  82:
+    A: [TWG, CRB, PSC, MAI]
+    B: [KHS, GYG, CLY, null]
+  83:
+    A: [BRN, BDF, MFG, KES]
+    B: [CLF, LFG, CPR, BWS]
+  84:
+    A: [null, HRS, KDE, RED]
+    B: [JMS, RWD, RGS, QEH]
+  85:
+    A: [PAG, LSS, HYP, PAS]
+    B: [CCR, CGS, BPV, MAI2]
+  86:
+    A: [CRB2, HZW, STA, GRS]
+    B: [TBG, HSO, BRK, RUN]
+  87:
+    A: [CLY, MAI, TWG, ICE]
+    B: [KHS, TTN, PSC, EMM]
+  88:
+    A: [CRB, GRD, MFG, CPR]
+    B: [CLF, BWS, SWI, QMC]
+  89:
+    A: [null, BRN, BDF, LFG]
+    B: [SEN, GYG, HAM, KES]
+  90:
+    A: [HRS, LSS, MAI2, QEH]
+    B: [null, CGS, HYP, KDE]
+  91:
+    A: [CRB2, HSO, RGS, RED]
+    B: [CCR, BPV, HZW, GRS]
+  92:
+    A: [JMS, TWG, PSC, ICE]
+    B: [CLY, PAG, TBG, EMM]
+  93:
+    A: [BWS, PAS, CPR, STA]
+    B: [CLF, CRB, BRK, MFG]
+  94:
+    A: [MAI, BDF, HAM, GRD]
+    B: [TTN, BRN, QMC, KES]
+  95:
+    A: [GYG, LFG, SWI, RWD]
+    B: [KHS, SEN, RUN, null]
+  96:
+    A: [HRS, BPV, KDE, QEH]
+    B: [CCR, HYP, RGS, MAI2]
+  97:
+    A: [CLY, LSS, HZW, TWG]
+    B: [PAG, CGS, CRB2, ICE]
+  98:
+    A: [JMS, CLF, STA, TBG]
+    B: [GRS, PSC, BRK, RED]
+  99:
+    A: [null, BDF, CPR, HAM]
+    B: [MAI, TTN, BWS, KES]
+  100:
+    A: [KHS, CRB, HSO, GRD]
+    B: [LFG, QMC, RUN, MFG]
+  101:
+    A: [RWD, SWI, null, SEN]
+    B: [GYG, BRN, PAS, EMM]
+
