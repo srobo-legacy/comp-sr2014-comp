@@ -33,8 +33,8 @@ teams:
   CRB:
     name: "Cranbrook School"
 
-  DSF:
-    name: "Dereham Sixth Form"
+  CRB2:
+    name: "Cranbrook School"
 
   EMM:
     name: "Lyc\u00e9e Emmanuel Mounier"
@@ -87,14 +87,8 @@ teams:
   MAI2:
     name: "Gymnasium Markt Indersdorf"
 
-  MEA:
-    name: "Merchants' Academy"
-
   MFG:
     name: "Mirfield Free Grammar"
-
-  NHS:
-    name: "Norwich High School for Girls"
 
   PAG:
     name: "Pate's Grammar School"
@@ -111,9 +105,6 @@ teams:
   QMC:
     name: "Queen Mary's College"
 
-  QMS:
-    name: "Queensmead School"
-
   RED:
     name: "Redland Green School"
 
@@ -129,9 +120,6 @@ teams:
   SEN:
     name: "Southend High School for Boys"
 
-  SGS:
-    name: "Sutton Grammar School for Boys"
-
   STA:
     name: "St Anne's Catholic School"
 
@@ -146,6 +134,3 @@ teams:
 
   TWG:
     name: "Tunbridge Wells Grammar School for Boys"
-
-  WYC:
-    name: "Wymondham College"
