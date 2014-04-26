@@ -1,0 +1,35 @@
+arena_id: A
+match_number: 6
+teams:
+  CLF:
+    disqualified: false
+    present: true
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 0
+    zone_tokens: {0: 1, 1: 0, 2: 0, 3: 0}
+  CRB2:
+    disqualified: false
+    present: true
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 1
+    zone: 1
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  KDE:
+    disqualified: false
+    present: true
+    robot_moved: false
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 3
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  PSC:
+    disqualified: false
+    present: true
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 2
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
