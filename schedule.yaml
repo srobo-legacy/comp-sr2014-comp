@@ -6,6 +6,8 @@ delays:
     #   time: 2014-04-26 13:00:00 #<- time after which the delay will apply
     - delay: 1800
       time: 2014-04-26 13:00:00 +1
+    - delay: 900
+      time: 2014-04-26 13:35:00 +1
 match_periods:
   league:
     - start_time: 2014-04-26 13:00:00 +1
