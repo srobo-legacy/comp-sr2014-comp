@@ -3,7 +3,7 @@ match_number: 102
 teams:
   CCR:
     disqualified: false
-    present: true
+    present: false
     robot_moved: false
     slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
     upright_tokens: 0
