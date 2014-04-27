@@ -1,0 +1,35 @@
+arena_id: B
+match_number: 74
+teams:
+  BRK:
+    disqualified: false
+    present: true
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 2
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  BRN:
+    disqualified: false
+    present: false
+    robot_moved: false
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 1
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  CGS:
+    disqualified: false
+    present: true
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 0
+    zone_tokens: {0: 1, 1: 0, 2: 0, 3: 0}
+  QMC:
+    disqualified: false
+    present: true
+    robot_moved: false
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 0
+    zone: 3
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
