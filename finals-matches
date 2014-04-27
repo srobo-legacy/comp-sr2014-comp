@@ -22,7 +22,12 @@ LFG: 10
 QMC: 14
 
 # Final (#120)
-- RUN (17) 3
-- GRD (7)  3
-- CLF (22) 4
-- HSO (4)  4
+- RUN (17) 3  2
+- GRD (7)  3  3    scored as LSS
+- CLF (22) 4  3
+- HSO (4)  4  4
+
+# Awards
+1st: HSO
+2nd: GRD (via rule 2.7 overriding rule 1.10)
+3rd: CLF
