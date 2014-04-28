@@ -24,7 +24,7 @@ QMC: 14
 # Final (#120)
 - RUN (17) 3  2
 - GRD (7)  3  3    scored as LSS
-- CLF (22) 4  3
+- CLF (22) 4  3   scored incorrectly. Actually only 2pts in final
 - HSO (4)  4  4
 
 # Awards
