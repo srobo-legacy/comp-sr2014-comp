@@ -1,5 +1,15 @@
 # The overall schedule of the competition
-match_period_length_seconds: 360
+
+# Lengths of matches in seconds
+match_period_lengths:
+  pre: 90
+  match: 180
+  post: 30
+  total: 300
+
+# Timezone in which the competition runs
+timezone: Europe/London
+
 delays:
   # Delays will pile up here in this form:
     # - delay: 15  #<- number of seconds delay
